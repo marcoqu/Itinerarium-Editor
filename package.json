@@ -1,6 +1,6 @@
 {
-  "name": "mapscroller-editor",
-  "version": "1.0.0",
+  "name": "itinerarium-editor",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/main.js",
   "types": "types/main.d.ts",
