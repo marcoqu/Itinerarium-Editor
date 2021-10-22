@@ -1,0 +1,27 @@
+{
+  "name": "mapscroller-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "types": "types/main.d.ts",
+  "dependencies": {
+    "animation-timeline-js": "^2.1.7",
+    "itinerarium": "github:marcoqu/Itinerarium",
+    "ts-events": "^3.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "rd /s /q dist&rd /s /q types&tsc",
+    "lint": "eslint . --ext .ts ./src/js"
+  },
+  "author": "",
+  "license": "ISC"
+}

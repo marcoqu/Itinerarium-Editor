@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "esnext",
+        "lib": ["ES2020", "dom"],
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "noStrictGenericChecks": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "allowJs": true,
+        "baseUrl": "./src",
+        "typeRoots": ["./node_modules/@types"],
+        "paths": {},
+        "outDir": "./dist",
+        "declarationDir": "./types",
+        "declaration": true,
+        "plugins": [
+            {
+                "name": "tslint-language-service"
+            }
+        ]
+    }
+}
