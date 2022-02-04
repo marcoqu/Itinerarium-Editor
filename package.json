@@ -6,7 +6,7 @@
   "types": "types/main.d.ts",
   "dependencies": {
     "animation-timeline-js": "^2.1.7",
-    "itinerarium": "github:marcoqu/Itinerarium",
+    "itinerarium": "github:marcoqu/Itinerarium#v0.3",
     "ts-events": "^3.4.0"
   },
   "devDependencies": {
